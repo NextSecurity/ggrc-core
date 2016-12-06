@@ -47,10 +47,6 @@ class Risks(modal_base.RisksModal, _CreateNewObjectModal):
   """Class representing a risk modal"""
 
 
-class Requests(modal_base.RequestsModal, _CreateNewObjectModal):
-  """Class representing an request modal"""
-
-
 class Issues(modal_base.IssuesModal, _CreateNewObjectModal):
   """Class representing an issue modal"""
 

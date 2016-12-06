@@ -250,11 +250,6 @@ class ModalCreateNewRisk(BaseModalCreateNew):
       By.CSS_SELECTOR, '.modal-body form>div:nth-child(3) iframe')
 
 
-class ModalCreateRequest(BaseModalCreateNew):
-  """Locators for the control modal visible when creating a new modal from
-  LHN"""
-
-
 class ModalCreateNewDataAsset(BaseModalCreateNew):
   """Locators for the control modal visible when creating a new modal from
   LHN"""
@@ -450,11 +445,6 @@ class ModalCreateNewControl(BaseModalCreateNew):
 
 class ModalCreateNewIssue(BaseModalCreateNew):
   """Locators for the issue modal visible when creating a new modal from
-  LHN"""
-
-
-class ModalCreateNewRequest(BaseModalCreateNew):
-  """Locators for the request modal visible when creating a new modal from
   LHN"""
 
 
@@ -662,10 +652,6 @@ class WidgetInfoProgram(BaseInfoWidget):
   PRIVATE_PROGRAM = (By.CSS_SELECTOR,
                      '[data-test-id="title_private_ec758af9"] h6')
   ICON_LOCK = (By.CSS_SELECTOR, '[data-test-id="icon_private_ec758af9"]')
-
-
-class WidgetInfoRequest(BaseInfoWidget):
-  """Locators for the request info widget"""
 
 
 class WidgetInfoRisk(BaseInfoWidget):
@@ -904,7 +890,7 @@ class AdminCustomAttributes(object):
           objects.OBJECTIVES, objects.SECTIONS, objects.CONTROLS,
           objects.ISSUES, objects.ASSESSMENTS, objects.STANDARDS,
           objects.REGULATIONS, objects.POLICIES, objects.CONTRACTS,
-          objects.CLAUSES, objects.REQUESTS, objects.VENDORS, objects.PEOPLE,
+          objects.CLAUSES, objects.VENDORS, objects.PEOPLE,
           objects.ACCESS_GROUPS, objects.ORG_GROUPS, objects.PRODUCTS,
           objects.MARKETS, objects.PROCESSES, objects.FACILITIES,
           objects.PROJECTS, objects.DATA_ASSETS, objects.SYSTEMS)

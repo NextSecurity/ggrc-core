@@ -190,10 +190,6 @@ class Assessments(_ObjectWidgetBar):
   """A model representing widget bar of the Assessments object"""
 
 
-class Requests(_ObjectWidgetBar):
-  """A model representing widget bar of the requests object"""
-
-
 class Issues(_ObjectWidgetBar):
   """A model representing widget bar of the workflow object"""
 

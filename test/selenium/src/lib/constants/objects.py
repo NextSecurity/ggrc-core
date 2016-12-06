@@ -7,7 +7,6 @@ PROGRAMS = "programs"
 WORKFLOWS = "workflows"
 AUDITS = "audits"
 ASSESSMENTS = "assessments"
-REQUESTS = "requests"
 ISSUES = "issues"
 DIRECTIVES = "directives"
 REGULATIONS = "regulations"
@@ -37,7 +36,7 @@ all_objects = (WORKFLOWS, RISK_ASSESSMENTS, THREATS, RISKS,
                PROGRAMS, AUDITS, OBJECTIVES, SECTIONS,
                CONTROLS, ISSUES, ASSESSMENTS, STANDARDS,
                REGULATIONS, POLICIES, CONTRACTS, CLAUSES,
-               REQUESTS, VENDORS, PEOPLE, ACCESS_GROUPS,
+               VENDORS, PEOPLE, ACCESS_GROUPS,
                ORG_GROUPS, PRODUCTS, MARKETS, PROCESSES,
                FACILITIES, PROJECTS, DATA_ASSETS, SYSTEMS)
 
